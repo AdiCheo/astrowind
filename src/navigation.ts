@@ -101,6 +101,10 @@ export const headerData = {
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
+          text: 'Flow',
+          href: getPermalink('flow', 'post'),
+        },
+        {
           text: 'Category Page',
           href: getPermalink('tutorials', 'category'),
         },
