@@ -70,7 +70,7 @@ export const headerData = {
     },
     {
       text: 'CONTACT',
-      href: '#',
+      href: 'contact',
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
