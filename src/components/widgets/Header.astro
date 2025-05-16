@@ -145,7 +145,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
                 aria-label="RSS Feed"
                 href={getAsset('/rss.xml')}
               >
-                <Icon name="tabler:rss" class="w-5 h-5" />
+                <!-- <Icon name="tabler:rss" class="w-5 h-5" /> -->
               </a>
             )
           }
@@ -153,9 +153,9 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
         {
           actions?.length ? (
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
-              {actions.map((btnProps) => (
+              <!-- {actions.map((btnProps) => (
                 <Button {...btnProps} class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto" />
-              ))}
+              ))} -->
             </span>
           ) : (
             ''
